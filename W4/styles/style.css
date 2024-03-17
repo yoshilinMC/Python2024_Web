@@ -1,0 +1,45 @@
+/* h1 {
+    color: red;
+    font-size: 5em;
+}
+p {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+} */
+
+h3,p {
+    color: gray;
+}
+
+#my-id {
+    color: lightcoral;
+}
+
+.important {
+    color: darkgreen;
+}
+
+#customer-review{
+    border-color: darkslateblue;
+    background-color: rgb(187, 226, 187);
+    color: #F75000;
+}
+
+h1 {
+    background-color: #6495ed;
+}
+p {
+    background-color: #e0ffff;
+}
+/* body{
+    background-color: wheat;
+} */
+
+body{
+    background-image: url("../snakeman.png");
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: left bottom;
+}
