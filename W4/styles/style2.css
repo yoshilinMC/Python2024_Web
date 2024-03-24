@@ -1,0 +1,11 @@
+h3 {
+    color: gray;
+}
+
+body{
+    background-image: url("../snakeman.png");
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}

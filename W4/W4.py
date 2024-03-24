@@ -34,7 +34,7 @@ ptr = head
 while ptr.next != head:
     ptr = ptr.next
 ptr.next = new
-head = new
+head = new  
 """
 head = car("black")
 red = car("red")

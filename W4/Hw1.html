@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My Web </title> </head>
+        <link href="styles/style2.css" rel="stylesheet" type="text/css"/> 
+    </head>
+    <body>   
+        <form action="/fromprocess.php" method="post">
+            <p> name: <input type="text" maxlength="12" minlength="3" size="12" placeholder="請在此輸入"></p>
+            <p> email: <input type="password" maxlength="12" minlength="3" size="12" placeholder="請在此輸入"></p>
+            <p> 請選擇你的生日 : </p>
+            <input type="date" value="2020-4-20" min="2020-04-01" max="2022-04-30" step="5" >
+            <input type="time" value="06:00" min="00:00" max="23:59" step="5" >
+            <hr> 
+            <h3> *About Course* </h3>
+            <p> 請勾選不懂的課程 : (可複選) </p>
+            <p> <input type="checkbox" name="like" value="Class1:html:基本介紹與元素" >Class1:html:基本介紹與元素</p>
+            <p> <input type="checkbox" name="like" value="Class2:html:圖諞列表與表格" >Class2:html:圖諞列表與表格</p>
+            <p> <input type="checkbox" name="like" value="Class3:html:表單與輸入類型" >Class3:html:表單與輸入類型</p>
+            請問你最有興趣的技術 :
+            <p><input type="radio" name="sweet" value="many" 全糖> html </p>
+            <p><input type="radio" name="sweet" value="meduim" 全糖> CSS </p>
+            <p><input type="radio" name="sweet" value="less" 全糖> JavaScript </p>
+            <hr> 
+            <h3> *Comment* </h3>>
+            <textarea name="mytext" rows="6" cols="40" required>你的留言</textarea> 
+        </form>
+    </body>
+</html>
