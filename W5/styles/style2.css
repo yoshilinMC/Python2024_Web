@@ -1,0 +1,21 @@
+h3 {
+    color: gray;
+}
+
+body{
+    background-image: url("../snakeman.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body {
+    font-family: fantasy;
+}
+
+#bordertest {
+    border-top-style: dashed;
+    border-bottom-style: solid ;
+    border-color: #01814a;
+    border-width: 2px;
+}
