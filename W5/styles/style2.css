@@ -3,19 +3,15 @@ h3 {
 }
 
 body{
-    background-image: url("../snakeman.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-body {
-    font-family: fantasy;
-}
-
-#bordertest {
+    background-image: url("../snakeman.png") rgb(197,231,211) no-repeat fixed center;
+    background-size: 50%;
+    font-family: fantasy;}
+#title  {
     border-top-style: dashed;
     border-bottom-style: solid ;
-    border-color: #01814a;
     border-width: 2px;
+    border-color: #01814a;
 }
+.sub{color: #01814a}
+
+.btn {background-color: lightgreen1;border-color: maroon;}

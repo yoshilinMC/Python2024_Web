@@ -5,16 +5,16 @@
         <link href="styles/style2.css" rel="stylesheet" type="text/css"/> 
     </head>
     <body>   
+        <div id="bordertest"> 2024 前端春季班 課程心得表單 </div>
         <form action="/fromprocess.php" method="post">
-            <div id="bordertest"> 2024 前端春季班 課程心得表單 </div>
-            <h3> *About You* </h3>
+            <div id="fundamental"></div><p><h3 class="sub"></p> *About You* </h3>
             <p> name: <input type="text" maxlength="12" minlength="3" size="12" placeholder="請在此輸入"></p>
             <p> email: <input type="password" maxlength="12" minlength="3" size="12" placeholder="請在此輸入"></p>
             <p> 請選擇你的生日 : </p>
             <input type="date" value="2020-4-20" min="2020-04-01" max="2022-04-30" step="5" >
-            <input type="time" value="06:00" min="00:00" max="23:59" step="5" >
+            <input type="time" value="06:00" min="00:00" max="23:59" step="5" > </div>
             <hr> 
-            <h3> *About Course* </h3>
+            <div id="course"></div><p><h3 class="sub"></p> *About Course* </h3>
             <p> 請勾選不懂的課程 : (可複選) </p>
             <p> <input type="checkbox" name="like" value="Class1:html:基本介紹與元素" >Class1:html:基本介紹與元素</p>
             <p> <input type="checkbox" name="like" value="Class2:html:圖諞列表與表格" >Class2:html:圖諞列表與表格</p>
@@ -24,7 +24,7 @@
             <p><input type="radio" name="sweet" value="meduim" 全糖> CSS </p>
             <p><input type="radio" name="sweet" value="less" 全糖> JavaScript </p>
             <hr> 
-            <h3> *Comment* </h3>>
+            <div id="other"></div><p><h3 class="sub"></p> *About You* </h3>
             <textarea name="mytext" rows="6" cols="40" required>你的留言</textarea> 
         </form>
     </body>
