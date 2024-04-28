@@ -1,0 +1,122 @@
+.container {
+    width: 500px;
+    height: 100px;
+    display: grid;
+    background-color: black;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.box {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.container2 {
+    width: 500px;
+    height: 100px;
+    display: grid;
+    background-color: black;
+    grid-template-columns: 150px 2fr 150px;
+}
+.box2 {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container3 {
+    width: 500px;
+    height: 100px;
+    display: grid;
+    background-color: black;
+    grid-auto-flow: column;
+    grid-template: repeat(2/1fr);
+}
+.container4 {
+    width: 500px;
+    height: 300px;
+    display: grid;
+    grid-template: 1fr 1fr / repeat(3/1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+    background-color: black;
+}
+.box3{
+    height: 200px;
+    width: 400px;
+    border: #696969 1px solid;
+    display: grid;
+    grid-auto-columns: 100px;
+    grid-auto-rows: 100px;
+    grid-auto-flow: column;
+    /* grid-auto-flow: row; */
+    justify-content: space-around;
+    align-content: center;
+}
+.item1{
+    height: 100px;
+    width: 100px;
+    background-color: lightgreen;
+}
+.item2{
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+}
+.box4{
+    height: 200px;
+    width: 400px;
+    border: #696969 1px solid;
+    display: grid;
+    grid-auto-columns: repeat(4,100px);
+    grid-auto-rows: 100px 100px;
+    grid-template-areas: 
+        "A B B B"
+        "A B B B";
+}
+.item3{
+    grid-area: A;
+    background: #afa;
+}
+.item4{
+    grid-area: B;
+    background: #aaf;
+}
+.box5{
+    height: 200px;
+    width: 400px;
+    border: #696969 1px solid;
+    display: grid;
+    grid-auto-columns: 100px 100px 100px 100px;
+    grid-auto-rows: 100px 100px;
+}
+.item5{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background: #afa;
+}
+.item6{
+    grid-row: 1/2;
+    grid-column: 2/5;
+    background: #aaf;
+}
+.box6{
+    height: 300px;
+    width: 400px;
+    border: #696969 1px solid;
+    display: grid;
+    grid-auto-columns: 100px 100px 100px 100px;
+    grid-auto-rows: 100px 100px 100px;
+}
+.item7{
+    grid-area: 1 / 1 / 2 / 5;
+    background: pink;
+}
+.item8{
+    grid-area: 2 / 1 / 4 / 4;
+    background: lightskyblue;
+}
+.item9{
+    grid-area: 2 / 4 / 3 / 5;
+    background: lightgreen;
+}

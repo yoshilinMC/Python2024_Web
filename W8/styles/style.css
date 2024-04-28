@@ -1,0 +1,44 @@
+.title {
+    color : #faa
+}
+.title:hover {
+    color : #aaf;
+}
+input:focus {
+    outline: none;
+    border: 5px #faa solid;
+}
+.out_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px #faa solid;
+}
+.out_block:hover .in_block {
+    width: 100px;
+    height: 100px;
+    border: 1px #aaf solid;
+}
+
+.out{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 3px darkseagreen solid;
+}
+.in{
+    display: none;
+}
+.out:hover .in {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border: 3px lightseagreen dashed;
+}
+img {
+    height: 100px;
+}
