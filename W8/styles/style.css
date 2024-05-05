@@ -1,4 +1,4 @@
-.title {
+/* .title {
     color : #faa
 }
 .title:hover {
@@ -42,3 +42,50 @@ input:focus {
 img {
     height: 100px;
 }
+div {
+    color: #afa;
+    background-color: lightskyblue;
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 200px;
+    text-align: center;
+}
+div ::before, div ::after {
+    content : attr(data-content);
+    color: orange;
+}
+div :hover ::before, div :hover ::after {
+    content : attr(data-content);
+    color: orange;
+}
+li {
+    font-size: 20px;
+    font-weight: lighter;
+}
+ul ::marker {
+    color: pink;
+    content: "*";
+} */
+.container {
+    width: 300px;
+    box-shadow: 0 0 0 15px lightskyblue, 0 0 0 30px lightpink;
+}
+p {
+    /* width: 200px;
+    height: 150px; */
+    padding: 20px;
+    text-align: justify;
+    line-height: 35px;
+    background:linear-gradient(lightsalmon,lightyellow);
+    border: 1px solid gray;
+    /* box-shadow: 0 0 15px lightskyblue, 0 0 30px lightpink; */
+    border-radius: 25px;
+}
+p::first-letter {
+    color: lightseagreen;
+    font-size: 30px;
+}
+/* div {
+    border: 1px solid gray;
+    background:linear-gradient(lightsalmon,lightyellow);
+} */
